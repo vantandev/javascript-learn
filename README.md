@@ -1252,3 +1252,6 @@ Other Style Guides
 **[⬆ back to top](#table-of-contents)**
 
 
+## Data Struc
+![image](https://user-images.githubusercontent.com/67332180/149862389-41543d3b-36ab-417c-b7bd-ff49ce784493.png)
+
