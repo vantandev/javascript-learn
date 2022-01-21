@@ -2107,3 +2107,25 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
+
+
+## Closures
+
+What is Closure? A closure is an inner function that can access the outer (container) function's variable. Closure has 3 scope chains, namely: Accessible to its own variable (variable is defined in its curly braces); An external function's variable can be accessed; Global variables can be accessed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
