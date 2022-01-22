@@ -2114,7 +2114,49 @@ Other Style Guides
 What is Closure? A closure is an inner function that can access the outer (container) function's variable. Closure has 3 scope chains, namely: Accessible to its own variable (variable is defined in its curly braces); An external function's variable can be accessed; Global variables can be accessed.
 
 
+## Blocks
 
+  <a name="blocks--braces"></a><a name="16.1"></a>
+  - [16.1](#blocks--braces) Use braces with all multiline blocks. eslint: [`nonblock-statement-body-position`](https://eslint.org/docs/rules/nonblock-statement-body-position)
+
+    ```javascript
+    // bad
+    if (test)
+      return false;
+
+    // good
+    if (test) return false;
+
+    // good
+    if (test) {
+      return false;
+    }
+
+    // bad
+    function foo() { return false; }
+
+    // good
+    function bar() {
+      return false;
+    }
+    ```
+
+  <a name="blocks--cuddled-elses"></a><a name="16.2"></a>
+  - [16.2](#blocks--cuddled-elses) If you’re using multiline blocks with `if` and `else`, put `else` on the same line as your `if` block’s closing brace. eslint: [`brace-style`](https://eslint.org/docs/rules/brace-style.html)
+
+    ```javascript
+    // bad
+    if (test) {
+      thing1();
+      thing2();
+    }
+    else {
+      thing3();
+    }
+
+    // good
+    if (test) {
+      thing1()
 
 
 
