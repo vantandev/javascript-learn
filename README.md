@@ -2158,7 +2158,7 @@ What is Closure? A closure is an inner function that can access the outer (conta
     if (test) {
       thing1()
 ## Exports
-![image](https://user-images.githubusercontent.com/67332180/151310022-79f76a4e-959e-4d64-a368-031440339068.png)
+![image](https://user-images.githubusercontent.com/67332180/151310476-892c7581-e16c-4241-8c65-77e2e378b622.png)
 
 
 
