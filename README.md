@@ -1,5 +1,25 @@
 # JavaScript {};
 
+<!-- 
+ 
+Filter 
+- trả vể tất cả các phần tử có trong điều kiện filter
+- trả về 1 mảng mới
+find 
+- trả vể tất cả các phần tử đầu tiên và thứ 2
+- trả về chính phần tử của mảng đó
+
+
+
+
+
+
+
+
+
+
+-->
+
 *A mostly reasonable approach to JavaScript*
 
 <!--  
