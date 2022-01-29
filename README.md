@@ -1,4 +1,5 @@
-# JavaScript {};
+# JavaScript {};                                      
+## 🔎 Profile Visits ![visitors](https://visitor-badge.glitch.me/badge?page_id=lonewol7f.lonewol7f)
 
 <!-- 
  
