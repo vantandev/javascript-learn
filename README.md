@@ -9,9 +9,11 @@ find
 - trả vể tất cả các phần tử đầu tiên và thứ 2
 - trả về chính phần tử của mảng đó
 
+findIndex 
+- có tác dụng tìm kiếm và trả về index của phần tử đầu tiên thỏa mãn điều kiện chỉ định trong một mảng JavaScript. 
 
-
-
+Phương thức findIndex(): Tìm index(vị trí) của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
+Phương thức find(): Tìm giá trị của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
 
 
 
