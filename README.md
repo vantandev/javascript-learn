@@ -30,8 +30,19 @@ a là Một chuỗi hoặc biểu thức chính quy (dk) để sử dụng để
 b là Một số nguyên giới hạn số lần tách, các mặt hàng sau khi giới hạn sẽ bị loại trừ.
 
 
-findOne()
+join()
+- trả về một mảng dưới dạng một chuỗi.
+- không thay đổi mảng ban đầu.
+- Bất kỳ dấu phân cách nào cũng có thể được chỉ định. 
+- Giá trị mặc định là dấu phẩy (,).
+### details
+join()
+Dấu phân tách sẽ được sử dụng, Mặc định là dấu phẩy.
 
+
+# MongoDB
+
+findOne()
 
 
 *A mostly reasonable approach to JavaScript*
