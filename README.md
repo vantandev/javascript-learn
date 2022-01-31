@@ -1,5 +1,5 @@
 # JavaScript {};                                      
-### 🔎 Profile Visits ![visitors](https://visitor-badge.glitch.me/badge?page_id=lonewol7f.lonewol7f)
+### 🔎 Profile Visits ![visitors](https://visitor-badge.glitch.me/badge?page_id=JS.lonewol7f)
 
 <!-- 
  
@@ -16,12 +16,23 @@ findIndex
 Phương thức findIndex(): Tìm index(vị trí) của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
 Phương thức find(): Tìm giá trị của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
 
-
-
-
-
-
 -->
+
+split()
+- chia một chuỗi thành một mảng các chuỗi con.
+- trả về mảng mới.
+- không thay đổi chuỗi ban đầu.
+### details
+string.split(): trả về mảng ban đầu
+string.split(a)
+string.split(a, b)
+a là Một chuỗi hoặc biểu thức chính quy (dk) để sử dụng để tách.
+b là Một số nguyên giới hạn số lần tách, các mặt hàng sau khi giới hạn sẽ bị loại trừ.
+
+
+findOne()
+
+
 
 *A mostly reasonable approach to JavaScript*
 
