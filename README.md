@@ -20,6 +20,10 @@ Phương thức find(): Tìm giá trị của phần tử thỏa mãn điều ki
 
 
 
+
+
+
+
 push()
 - thêm các mục mới vào cuối một mảng. 
 - thay đổi độ dài của mảng, trả về độ dài mới.
@@ -27,6 +31,10 @@ push()
 pop()
 - loại bỏ (bật) phần tử cuối cùng của một mảng.
 - thay đổi mảng ban đầu, trả về phần tử bị loại bỏ.
+
+shift()
+- loại bỏ mục đầu tiên của một mảng.
+- thay đổi mảng ban đầu, trả về phần tử đã thay đổi.
 
 slice()
 - trả về các phần tử đã chọn trong một mảng, dưới dạng một mảng mới.
@@ -38,7 +46,47 @@ array.slice(a, b)
 a là Vị trí bắt đầu. Mặc định là 0. Số âm chọn từ cuối mảng.
 b Không bắt buộc. Vị trí kết thúc. Mặc định là phần tử cuối cùng. Số âm chọn từ cuối mảng.
 
+splice()
+- thêm vào / hoặc loại bỏ các phần tử mảng.
+- ghi đè lên mảng ban đầu, trả về một mảng chứa tất cả những phần tử đã bị xóa
 
+### details
+splice(a)
+splice(a, b)
+splice(a, b, c, ....,d)
+a là vị trí chỉ mục bắt đầu thay thế.
+b là số phần tử sẽ bị lại bỏ, tính tử vị trí chỉ mục a
+c, ....,d các phần tử sẽ được thêm vào từ vị trí. 
+
+
+unshift()
+- thêm các phần tử mới vào đầu mảng. 
+- ghi đè lên mảng ban đầu.
+
+keys()
+- trả về một đối tượng Array Iterator với các khóa của một mảng (0, 1, 2, 3, ....).
+- không thay đổi mảng ban đầu
+
+
+
+toString()
+- trả về một chuỗi với các giá trị mảng được phân tách bằng dấu phẩy.
+- không thay đổi mảng ban đầu.
+
+valueOf()
+- thức trả về chính mảng.
+- không thay đổi mảng ban đầu.
+
+includes()
+- trả về true nếu một mảng chứa một giá trị được chỉ định.
+- trả về false nếu giá trị không được tìm thấy.
+- có phân biệt chữ hoa chữ thường.
+
+
+sort()
+xếp các phần tử của một mảng.
+ghi đè lên mảng ban đầu.
+xếp các phần tử dưới dạng chuỗi theo thứ tự bảng chữ cái và tăng dần.
 
 -->
 
