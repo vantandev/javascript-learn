@@ -1,6 +1,7 @@
 # JavaScript {};                                      
-### 🔎 Profile Visits ![visitors](https://visitor-badge.glitch.me/badge?page_id=JS.lonewol7f)
-
+<p align="right">
+  <img src="https://visitor-badge.glitch.me/badge?page_id=JS.lonewol7f" />
+</p>
 <!-- 
  
 Filter 
