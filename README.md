@@ -17,6 +17,29 @@ findIndex
 Phương thức findIndex(): Tìm index(vị trí) của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
 Phương thức find(): Tìm giá trị của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
 
+
+
+
+push()
+- thêm các mục mới vào cuối một mảng. 
+- thay đổi độ dài của mảng, trả về độ dài mới.
+
+pop()
+- loại bỏ (bật) phần tử cuối cùng của một mảng.
+- thay đổi mảng ban đầu, trả về phần tử bị loại bỏ.
+
+slice()
+- trả về các phần tử đã chọn trong một mảng, dưới dạng một mảng mới.
+- chọn từ một điểm bắt đầu nhất định, cho đến một điểm kết thúc nhất định (không bao gồm: bỏ qua phần tử cuối) .
+- không thay đổi mảng ban đầu.
+### details
+array.slice(a)
+array.slice(a, b)
+a là Vị trí bắt đầu. Mặc định là 0. Số âm chọn từ cuối mảng.
+b Không bắt buộc. Vị trí kết thúc. Mặc định là phần tử cuối cùng. Số âm chọn từ cuối mảng.
+
+
+
 -->
 
 split()
