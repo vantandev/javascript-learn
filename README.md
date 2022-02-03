@@ -4,18 +4,6 @@
 </p>
 <!-- 
  
-Filter 
-- trả vể tất cả các phần tử có trong điều kiện filter
-- trả về 1 mảng mới
-find 
-- trả vể tất cả các phần tử đầu tiên và thứ 2
-- trả về chính phần tử của mảng đó
-
-findIndex 
-- có tác dụng tìm kiếm và trả về index của phần tử đầu tiên thỏa mãn điều kiện chỉ định trong một mảng JavaScript. 
-
-Phương thức findIndex(): Tìm index(vị trí) của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
-Phương thức find(): Tìm giá trị của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
 
 
 
@@ -36,6 +24,8 @@ shift()
 - loại bỏ mục đầu tiên của một mảng.
 - thay đổi mảng ban đầu, trả về phần tử đã thay đổi.
 
+
+
 slice()
 - trả về các phần tử đã chọn trong một mảng, dưới dạng một mảng mới.
 - chọn từ một điểm bắt đầu nhất định, cho đến một điểm kết thúc nhất định (không bao gồm: bỏ qua phần tử cuối) .
@@ -45,6 +35,7 @@ array.slice(a)
 array.slice(a, b)
 a là Vị trí bắt đầu. Mặc định là 0. Số âm chọn từ cuối mảng.
 b Không bắt buộc. Vị trí kết thúc. Mặc định là phần tử cuối cùng. Số âm chọn từ cuối mảng.
+
 
 splice()
 - thêm vào / hoặc loại bỏ các phần tử mảng.
@@ -57,6 +48,7 @@ splice(a, b, c, ....,d)
 a là vị trí chỉ mục bắt đầu thay thế.
 b là số phần tử sẽ bị lại bỏ, tính tử vị trí chỉ mục a
 c, ....,d các phần tử sẽ được thêm vào từ vị trí. 
+
 
 
 unshift()
@@ -108,8 +100,310 @@ join()
 - Bất kỳ dấu phân cách nào cũng có thể được chỉ định. 
 - Giá trị mặc định là dấu phẩy (,).
 ### details
-join()
+join(' ')
 Dấu phân tách sẽ được sử dụng, Mặc định là dấu phẩy.
+
+
+
+
+map () 
+tạo một mảng mới từ việc gọi một hàm cho mọi phần tử của mảng.
+không thực thi hàm cho các phần tử trống.
+không thay đổi mảng ban đầu.
+### details
+array.map(function(currentValue, index, arr), thisValue)
+function()là Một hàm được chạy cho mỗi phần tử mảng.
+currentValue là Giá trị của phần tử hiện tại.
+index là Chỉ mục của phần tử hiện tại
+arr là Mảng của phần tử hiện tại.
+thisValue là Một giá trị được truyền cho hàm sẽ được sử dụng làm giá trị this của nó.
+
+
+filter () 
+tạo một mảng mới chứa đầy các phần tử vượt qua bài kiểm tra do một hàm cung cấp.
+không thực thi hàm cho các phần tử trống.
+không thay đổi mảng ban đầu ..
+### details
+array.filter(function(currentValue, index, arr), thisValue)
+
+
+
+filter()
+- trả vể tất cả các phần tử có trong điều kiện filter
+- trả về 1 mảng mới
+
+
+findIndex() - Tìm index(vị trí) của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
+find() - Tìm giá trị của phần tử thỏa mãn điều kiện chỉ định trong mảng JavaScript
+
+
+
+
+
+concat()
+nối (nối) hai hoặc nhiều mảng.
+trả về một mảng mới, chứa các mảng đã nối.
+không thay đổi các mảng hiện có.
+
+
+
+
+indexOf() 
+trả về chỉ mục đầu tiên của một giá trị được chỉ định.
+trả về -1 nếu giá trị không được tìm thấy.
+### details   
+array.indexOf(item, start)
+item là Giá trị cần tìm kiếm
+start - bắt đầu tìm từ chỉ mục
+
+
+
+
+
+Reduce() 
+thực thi một hàm giảm thiểu cho phần tử mảng.
+trả về một giá trị duy nhất: kết quả tích lũy của hàm.
+không thay đổi mảng ban đầu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # MongoDB
