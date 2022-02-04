@@ -80,7 +80,7 @@ xếp các phần tử của một mảng.
 ghi đè lên mảng ban đầu.
 xếp các phần tử dưới dạng chuỗi theo thứ tự bảng chữ cái và tăng dần.
 
--->
+
 
 split()
 - chia một chuỗi thành một mảng các chuỗi con.
@@ -166,7 +166,7 @@ trả về một giá trị duy nhất: kết quả tích lũy của hàm.
 không thay đổi mảng ban đầu.
 
 
-
+-->
 
 
 
