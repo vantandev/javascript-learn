@@ -2,7 +2,7 @@
 <p align="right">
   <img src="https://visitor-badge.glitch.me/badge?page_id=JS.lonewol7f" />
 </p>
-<!-- 
+
  
 
 
@@ -11,7 +11,7 @@
 
 
 
-
+<!--
 push()
 - thêm các mục mới vào cuối một mảng. 
 - thay đổi độ dài của mảng, trả về độ dài mới.
@@ -166,9 +166,8 @@ trả về một giá trị duy nhất: kết quả tích lũy của hàm.
 không thay đổi mảng ban đầu.
 
 
+
 -->
-
-
 
 
 
