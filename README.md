@@ -1,6 +1,6 @@
 # JavaScript {};                                      
 <p align="right">
-  <img src="https://visitor-badge.glitch.me/badge?page_id=JS.lonewol7f" />
+  <img src="https://komarev.com/ghpvc/?username=JS" alt="JS" />
 </p>
 
  
