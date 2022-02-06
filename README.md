@@ -1,4 +1,5 @@
-# JavaScript {};                                      
+# JavaScript {};
+# User guide
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=JS" alt="JS" />
 </p>
