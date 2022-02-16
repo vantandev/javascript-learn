@@ -177,13 +177,10 @@ Object.values({
     });
     
     // output 
-    // [
     
     // { id: 1, name: 'Alice' },
-    
     // { id: 4, name: 'Alice' }, 
     // { id: 2, name: 'Bob' };
-    
     // { id: 3, name: 'John' },
 
 
