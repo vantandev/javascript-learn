@@ -1,14 +1,5 @@
 # JavaScript {};
 
-
- 
-
-
-
-
-
-
-
 <!--
 push()
 - thêm các mục mới vào cuối một mảng. 
@@ -167,11 +158,7 @@ không thay đổi mảng ban đầu.
 
 -->
 
-
-
 <!-- ## Exports
 ![image](https://user-images.githubusercontent.com/67332180/151310476-892c7581-e16c-4241-8c65-77e2e378b622.png)
-
-
 ![z3179794452672_1954048a1d2defbca64b436aa1d16a7a](https://user-images.githubusercontent.com/67332180/153788833-02a0b43e-e1b1-440b-ba79-7c5bade835c5.jpg) -->
 
